@@ -1,31 +1,18 @@
-# PiPicoResistorLadderReader
+# AutoDocOrganizer
 
-## Introdu√ß√£o
-Este projeto permite a leitura de um ladder resistor com 5 resistores diferentes usando um Raspberry Pi Pico. O c√≥digo est√° escrito em MicroPython e √© ideal para aplica√ß√µes embarcadas que requerem monitoramento de resist√™ncia.
+## IntroduÁ„o
+O AutoDocOrganizer È um script Python desenvolvido para automatizar a organizaÁ„o de documentos digitalizados, especificamente folhas de ponto e atestados mÈdicos. Utilizando bibliotecas como pyautogui, pyperclip, e tkinter, o script facilita a gest„o de documentos digitalizados ao movÍ-los para pastas especÌficas baseadas em nomes de funcion·rios, seguindo uma ordem alfabÈtica predeterminada.
 
-## Lista de Materiais
-- Raspberry Pi Pico
-- 5 resistores de valores diferentes
-- Cabos de conex√£o
-- Breadboard
+## InstalaÁ„o
 
-## Prop√≥sito do Projeto
-Monitorar a resist√™ncia de um ladder resistor em tempo real para aplica√ß√µes que exigem ajustes precisos ou monitoramento de condi√ß√µes el√©tricas.
+### PrÈ-requisitos
+- Python 3.x
+- pyautogui
+- pyperclip
+- tkinter
 
-## Pr√≥s e Contras
-### Pr√≥s
-- Baixo custo de implementa√ß√£o
-- F√°cil de montar e programar
-- Flex√≠vel para diferentes tipos de resistores
-
-### Contras
-- Requer calibra√ß√£o para precis√£o
-- Limitado pela precis√£o do ADC do Raspberry Pi Pico
-
-## Diretrizes Gerais
-1. Certifique-se de que todos os componentes est√£o corretamente conectados antes de alimentar o circuito.
-2. Utilize o IDE Thonny Python para carregar o programa no Raspberry Pi Pico.
-3. Ajuste a f√≥rmula de c√°lculo da resist√™ncia conforme necess√°rio, baseando-se na configura√ß√£o do seu ladder resistor.
-
-## Licen√ßa
-[MIT](https://opensource.org/licenses/MIT)
+### Passos para InstalaÁ„o
+1. Garanta que o Python 3.x est· instalado em seu sistema.
+2. Instale as bibliotecas necess·rias usando o comando abaixo:
+```bash
+pip install pyautogui pyperclip tk
