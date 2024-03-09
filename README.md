@@ -1,18 +1,31 @@
-# AutoDocOrganizer
+# AmbientTempMonitor
 
-## IntroduÁ„o
-O AutoDocOrganizer È um script Python desenvolvido para automatizar a organizaÁ„o de documentos digitalizados, especificamente folhas de ponto e atestados mÈdicos. Utilizando bibliotecas como pyautogui, pyperclip, e tkinter, o script facilita a gest„o de documentos digitalizados ao movÍ-los para pastas especÌficas baseadas em nomes de funcion·rios, seguindo uma ordem alfabÈtica predeterminada.
+## Introdu√ß√£o
+Este projeto consiste em um script Python simples para monitorar a temperatura e a umidade do ambiente utilizando o sensor DHT11.
 
-## InstalaÁ„o
+## Materiais Necess√°rios
+- Raspberry Pi (Qualquer modelo com GPIO)
+- Sensor de temperatura e umidade DHT11
+- Resist√™ncia de 10k (opcional, dependendo da configura√ß√£o)
 
-### PrÈ-requisitos
-- Python 3.x
-- pyautogui
-- pyperclip
-- tkinter
+## Prop√≥sito do Projeto
+Monitorar as condi√ß√µes ambientais em tempo real, √∫til para ambientes que necessitam manter par√¢metros clim√°ticos espec√≠ficos.
 
-### Passos para InstalaÁ„o
-1. Garanta que o Python 3.x est· instalado em seu sistema.
-2. Instale as bibliotecas necess·rias usando o comando abaixo:
-```bash
-pip install pyautogui pyperclip tk
+## Pr√≥s e Contras
+
+### Pr√≥s
+- F√°cil de configurar e utilizar
+- Baixo custo de implementa√ß√£o
+- Utiliza componentes amplamente dispon√≠veis
+
+### Contras
+- Precis√£o limitada do sensor DHT11
+- Dependente de hardware espec√≠fico
+
+## Instru√ß√µes Gerais
+1. Conecte o sensor DHT11 ao Raspberry Pi conforme orienta√ß√£o do fabricante.
+2. Instale a biblioteca Adafruit_DHT com `pip install Adafruit_DHT`.
+3. Execute o script `ambient_temp_monitor.py` para iniciar o monitoramento.
+
+## Licen√ßa
+Este projeto √© distribu√≠do sob a licen√ßa MIT. Veja o arquivo LICENSE para mais detalhes.
