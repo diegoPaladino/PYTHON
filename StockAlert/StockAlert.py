@@ -24,3 +24,5 @@ def monitor_stock(stock_ticker, alert_duration=900):
 
 if __name__ == "__main__":
     monitor_stock("BBAS3.SA")  # Stock ticker for Banco do Brasil
+
+#can make this code to bitcoin?
