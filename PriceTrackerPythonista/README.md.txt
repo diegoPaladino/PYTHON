@@ -29,3 +29,5 @@ The primary purpose of this project is to provide a simple yet effective way to 
 
 ## License
 This project is open-source and free to use. It's distributed under the MIT License.
+
+general propouse
