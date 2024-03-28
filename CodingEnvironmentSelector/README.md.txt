@@ -23,3 +23,4 @@ Execute o script em um ambiente Python. Uma janela de diálogo aparecerá pedind
 
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
+free license 
