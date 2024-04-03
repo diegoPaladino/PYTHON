@@ -2,6 +2,8 @@ from machine import Pin, ADC
 import utime
 import uos
 
+#to OS is necessary 8Gb SD card
+
 # Configuração do ADC para leitura do microfone
 adc = ADC(Pin(26)) # Altere o número do pino conforme sua conexão
 
