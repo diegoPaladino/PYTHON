@@ -120,4 +120,4 @@ while True:
     enter()
     print('enter')
     t.sleep(2)
-#move this to school programs 
+#move this to school programs and check what'll happening whith daialy upload GitHub status
