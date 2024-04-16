@@ -24,3 +24,6 @@ Execute o script em um ambiente Python. Uma janela de diálogo aparecerá pedind
 ## Licença
 [MIT](https://choosealicense.com/licenses/mit/)
 free license 
+
+##
+são 16/04 e acabei de ter uma excelente ideia: criar um programa que realize uma serie de analises e defina um programa a ser criado levando em consideração o maximo posaivel de variáveis 
