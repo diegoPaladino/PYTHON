@@ -26,4 +26,5 @@ Execute o script em um ambiente Python. Uma janela de diálogo aparecerá pedind
 free license 
 
 ##
-são 16/04 e acabei de ter uma excelente ideia: criar um programa que realize uma serie de analises e defina um programa a ser criado levando em consideração o maximo posaivel de variáveis 
+são 16/04 e acabei de ter uma excelente ideia: criar um programa que realize uma serie de analises e defina um programa a ser criado levando em consideração o maximo posaivel de variáveis.
+Esse programa analisará fatores externos na rede, como trends, alem de integracao ao obsidian e elaborará automaticamente um programa baseando-se na necessidade encontrada.
