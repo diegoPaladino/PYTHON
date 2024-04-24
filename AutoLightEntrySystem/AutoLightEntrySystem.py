@@ -1,3 +1,8 @@
+#comments about the project:
+
+
+
+
 from gpiozero import LightSensor, MotionSensor, Button, OutputDevice
 from time import sleep
 
