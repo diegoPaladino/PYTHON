@@ -1,3 +1,6 @@
+#necessary item: card 8Gb
+
+
 from machine import Pin, ADC
 import utime
 import uos
