@@ -1,5 +1,5 @@
 #comments about the project:
-
+# serial with the gate motor?
 
 
 
