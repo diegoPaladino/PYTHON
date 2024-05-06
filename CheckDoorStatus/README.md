@@ -26,4 +26,4 @@ The purpose of this project is to demonstrate basic Python scripting skills and 
 3. Observe the output, which will indicate whether the door is closed or open based on your input.
 
 ## License
-This project is released under the MIT License.
+This project is released under the MIT License. its free .
