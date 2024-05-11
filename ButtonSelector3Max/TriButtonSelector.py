@@ -1,4 +1,5 @@
 #this principle is based in Kaisser's knowledge 
+# 110520240945-add colors in the bottons
 
 
 import tkinter as tk
