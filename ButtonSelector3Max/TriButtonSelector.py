@@ -1,6 +1,7 @@
 #this principle is based in Kaisser's knowledge 
 # 110520240945-add colors in the bottons
 # 120520240749-check the code on VSCode
+# 140520240758-
 
 
 import tkinter as tk
