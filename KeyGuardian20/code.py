@@ -35,3 +35,5 @@ def remover_usuario(nome):
 # Exemplo de uso das funções
 adicionar_usuario("DIEGO", "1234")
 remover_usuario("JOAO")
+
+#entender essas funções 
