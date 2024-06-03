@@ -1,31 +1,68 @@
-# AmbientTempMonitor
+# Automated Lawn Irrigation System
 
-## Introdução
-Este projeto consiste em um script Python simples para monitorar a temperatura e a umidade do ambiente utilizando o sensor DHT11.
+## Introduction
+The Automated Lawn Irrigation System is designed to automatically water your lawn based on soil moisture levels instead of a fixed schedule. This ensures your lawn receives the right amount of water, conserving water and promoting healthy grass growth.
 
-## Materiais Necessários
-- Raspberry Pi (Qualquer modelo com GPIO)
-- Sensor de temperatura e umidade DHT11
-- Resistência de 10k (opcional, dependendo da configuração)
+## List of Necessary Materials
+- Raspberry Pi
+- Adafruit DHT22 sensor
+- Relay module
+- Water pump
+- Jumper wires
+- Breadboard
+- Power supply
 
-## Propósito do Projeto
-Monitorar as condições ambientais em tempo real, útil para ambientes que necessitam manter parâmetros climáticos específicos.
+## Project Purpose
+The purpose of this project is to automate the irrigation of your lawn by using a soil moisture sensor to determine when watering is needed. This system helps to prevent overwatering or underwatering, ensuring optimal lawn health and water usage efficiency. It is ideal for homeowners who want to maintain their lawns with minimal manual effort.
 
-## Prós e Contras
+## Pros and Cons
+### Pros
+- Automated watering based on soil moisture
+- Water conservation
+- Promotes healthy lawn growth
+- Reduces manual labor
 
-### Prós
-- Fácil de configurar e utilizar
-- Baixo custo de implementação
-- Utiliza componentes amplamente disponíveis
+### Cons
+- Initial setup and calibration required
+- Dependency on sensor accuracy
+- Requires Raspberry Pi and additional hardware
 
-### Contras
-- Precisão limitada do sensor DHT11
-- Dependente de hardware específico
+## General Guidelines
+### Installation
+1. Assemble the hardware components as per the circuit diagram.
+2. Connect the DHT22 sensor to the Raspberry Pi.
+3. Connect the relay module to control the water pump.
+4. Install the necessary Python libraries:
+    ```bash
+    pip install Adafruit_DHT
+    ```
+5. Upload and run the `irrigation_system.py` script on your Raspberry Pi.
 
-## Instruções Gerais
-1. Conecte o sensor DHT11 ao Raspberry Pi conforme orientação do fabricante.
-2. Instale a biblioteca Adafruit_DHT com `pip install Adafruit_DHT`.
-3. Execute o script `ambient_temp_monitor.py` para iniciar o monitoramento.
+### Usage
+- The system continuously monitors the soil moisture level.
+- If the moisture level is below the threshold, the water pump is activated to water the lawn for a specified duration.
 
-## Licença
-Este projeto é distribuído sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+### Troubleshooting
+- Ensure all connections are secure.
+- Calibrate the moisture threshold as per your soil type.
+- Check the power supply for the water pump.
+
+## License
+This project is open-source and free to use. Feel free to modify and distribute as per your needs.
+
+---
+
+### Download Link for README.md
+[Download README.md](sandbox:/mnt/data/README.md)
+
+### D. Título do Commit
+
+`Add Automated Lawn Irrigation System`
+
+### E. Descrição do Commit
+
+Implemented the initial version of the Automated Lawn Irrigation System. This system uses a soil moisture sensor to automate the irrigation process, ensuring efficient water usage and promoting healthy lawn growth.
+
+### F. Imagem de Logomarca
+
+![Automated Lawn Irrigation System Logo](sandbox:/mnt/data/automated_lawn_irrigation_system_logo.png)
