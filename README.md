@@ -1,68 +1,55 @@
-# Automated Lawn Irrigation System
+# AirQualityMonitor
 
 ## Introduction
-The Automated Lawn Irrigation System is designed to automatically water your lawn based on soil moisture levels instead of a fixed schedule. This ensures your lawn receives the right amount of water, conserving water and promoting healthy grass growth.
+The AirQualityMonitor project is designed to continuously monitor and report air quality metrics, specifically temperature and humidity, using a DHT22 sensor and a Raspberry Pi.
 
-## List of Necessary Materials
-- Raspberry Pi
-- Adafruit DHT22 sensor
-- Relay module
-- Water pump
+## Materials Needed
+- Raspberry Pi (any model with GPIO support)
+- DHT22 sensor
 - Jumper wires
-- Breadboard
-- Power supply
+- Breadboard (optional)
 
 ## Project Purpose
-The purpose of this project is to automate the irrigation of your lawn by using a soil moisture sensor to determine when watering is needed. This system helps to prevent overwatering or underwatering, ensuring optimal lawn health and water usage efficiency. It is ideal for homeowners who want to maintain their lawns with minimal manual effort.
+This project aims to provide a simple and effective solution for monitoring air quality in indoor environments. It was created to help individuals and organizations maintain optimal air conditions for health and comfort. Potential beneficiaries include home users, office managers, and small businesses.
 
 ## Pros and Cons
 ### Pros
-- Automated watering based on soil moisture
-- Water conservation
-- Promotes healthy lawn growth
-- Reduces manual labor
+- Easy to set up and use
+- Provides real-time monitoring
+- Low-cost components
 
 ### Cons
-- Initial setup and calibration required
-- Dependency on sensor accuracy
-- Requires Raspberry Pi and additional hardware
+- Limited to temperature and humidity monitoring
+- Requires basic knowledge of Raspberry Pi and Python
 
-## General Guidelines
-### Installation
-1. Assemble the hardware components as per the circuit diagram.
-2. Connect the DHT22 sensor to the Raspberry Pi.
-3. Connect the relay module to control the water pump.
-4. Install the necessary Python libraries:
-    ```bash
-    pip install Adafruit_DHT
-    ```
-5. Upload and run the `irrigation_system.py` script on your Raspberry Pi.
+## General Instructions
+1. **Hardware Setup:**
+   - Connect the DHT22 sensor to the Raspberry Pi.
+   - Pin 1 (VCC) -> 3.3V
+   - Pin 2 (Data) -> GPIO4
+   - Pin 4 (GND) -> GND
 
-### Usage
-- The system continuously monitors the soil moisture level.
-- If the moisture level is below the threshold, the water pump is activated to water the lawn for a specified duration.
+2. **Software Setup:**
+   - Ensure Python is installed on your Raspberry Pi.
+   - Install the Adafruit_DHT library using:
+     ```sh
+     sudo pip install Adafruit_DHT
+     ```
 
-### Troubleshooting
-- Ensure all connections are secure.
-- Calibrate the moisture threshold as per your soil type.
-- Check the power supply for the water pump.
+3. **Running the Project:**
+   - Clone the repository:
+     ```sh
+     git clone https://github.com/yourusername/AirQualityMonitor.git
+     ```
+   - Navigate to the project directory:
+     ```sh
+     cd AirQualityMonitor
+     ```
+   - Run the monitoring script:
+     ```sh
+     python air_quality_monitor.py
+     ```
 
 ## License
-This project is open-source and free to use. Feel free to modify and distribute as per your needs.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute as you see fit.
 
----
-
-### Download Link for README.md
-[Download README.md](sandbox:/mnt/data/README.md)
-
-### D. Título do Commit
-
-`Add Automated Lawn Irrigation System`
-
-### E. Descrição do Commit
-
-Implemented the initial version of the Automated Lawn Irrigation System. This system uses a soil moisture sensor to automate the irrigation process, ensuring efficient water usage and promoting healthy lawn growth.
-
-### F. Imagem de Logomarca
-
-![Automated Lawn Irrigation System Logo](sandbox:/mnt/data/automated_lawn_irrigation_system_logo.png)
