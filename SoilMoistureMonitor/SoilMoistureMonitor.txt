@@ -1,0 +1,30 @@
+Escreva um código na linguagem Python que:
+
+OBJETIVO GERAL
+	Medidor de umidade do solo
+
+PRECISO QUE:
+	Em uma samambaia (que fica suspensa), preciso que aja um sistema de medição da humidade do solo (terra com substrato) que fica dentro do xaxim. Preciso que possua HIM (mostrando em 3 espectros de leds: verde, amarelho e vermelho, onde verde = condições de humidade ótima, amarelho = atenção, e vermelho = urgente, terra seca! e que possua um mini painel solar para recarregar a bateria.
+
+
+
+Aos moldes do github, em inglês, crie:
+A. Um nome criativo com excelente SEO (Search Engine Optimization), sem caracteres especial algum e sem intervalos (Camel case, Pascal case e Kebab case)
+B. O código (Utilize da filosofia CLEANCODE para elaborar o código)
+
+C. Crie e o arquivo README.md (com Introdução, Lista de Materiais Necessários,Propósito do Projeto, Prós e Contras, Orientações Gerais e Licença. Faça a estrutura do README.md formatada com Markdown):
+O arquivo README.md é tradicionalmente o primeiro ponto de contato que qualquer pessoa terá com seu repositório no GitHub. Ele deve fornecer uma visão geral clara, concisa e completa do projeto. Veja como você pode estruturar, no README:
+Introdução (esta introdução deve estar dentro do README.md): Uma breve descrição do que é o projeto e seu objetivo geral.
+Lista de Materiais Necessários: Todos os componentes necessários para construir e executar o projeto.
+Propósito do Projeto: Uma explicação detalhada do que o projeto faz, por que foi criado, e quem se beneficiaria dele.
+Prós e Contras: Uma discussão honesta sobre os benefícios e as limitações do projeto.
+Orientações Gerais: Passo a passo para configurar, instalar, e operar o projeto. Pode incluir instruções de instalação, uso, e solução de problemas.
+Licença: Informação sobre como o projeto pode ser usado por outras pessoas, que é free; opensource.
+Após criar o README.md, disponibilize para download através de um link.
+
+D. Título do Commit (no máximo 50 caracteres, contando com espaços)
+E. Descrição do Commit
+F. Crie uma imagem em forma de logomarca, tema para o projeto, que seja: Criativo, Chamativo, Minimalista, isométrica, com cores correlacionadas ao tema e itens abordados no projeto.
+
+Lembre-se: Todo o conteúdo em inglês.
+
