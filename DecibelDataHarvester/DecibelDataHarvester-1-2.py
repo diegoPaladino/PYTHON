@@ -27,3 +27,4 @@ def record_decibels(duration=60, interval=10, filename='decibel_log.csv'):
     df.to_csv(filename, index=False)
 
 # Ajuste conforme necessário para gravar por um período específico ou até que uma condição seja atendida
+# ajustar para extracao do dado da média de decibéis na escola 
