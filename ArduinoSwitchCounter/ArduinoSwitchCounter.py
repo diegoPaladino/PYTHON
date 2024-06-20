@@ -28,3 +28,5 @@ if __name__ == "__main__":
         print(f"Error: {e}")
     finally:
         arduino_counter.close()
+        
+# code to implementation in a secretary's door
