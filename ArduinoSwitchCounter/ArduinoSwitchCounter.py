@@ -30,3 +30,4 @@ if __name__ == "__main__":
         arduino_counter.close()
         
 # code to implementation in a secretary's door
+# starting work in 25, June
