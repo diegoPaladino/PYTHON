@@ -1,5 +1,6 @@
 #comments about the project:
 # serial with the gate motor?
+# implamantation on 2024 July
 
 
 
