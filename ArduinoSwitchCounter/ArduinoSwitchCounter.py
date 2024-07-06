@@ -30,4 +30,5 @@ if __name__ == "__main__":
         arduino_counter.close()
         
 # code to implementation in a secretary's door
-# starting work in August. preparate in holidays 
+# starting work in August. preparate in holidays. 
+# implement at work begin
