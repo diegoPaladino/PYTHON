@@ -31,4 +31,4 @@ if __name__ == "__main__":
         
 # code to implementation in a secretary's door
 # starting work in August. preparate in holidays. 
-# implement at work begin
+# implement at work begin the next month
