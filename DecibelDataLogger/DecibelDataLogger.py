@@ -45,3 +45,6 @@ try:
         print(f"Min: {minimo}, Max: {maximo}, Media: {media}")
 except KeyboardInterrupt:
     print("Programa encerrado.")
+    
+    
+#implementate in the school to know the ambience health
